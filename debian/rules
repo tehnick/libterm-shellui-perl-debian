@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+PACKAGE = libterm-shellui-perl
+DEVELOPER = BRONSON
+PROJECT = Term-ShellUI
+
+CUR_VER = $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
+
+%:
+	dh $@
+
+get-orig-source:
+	wget -4 -c "http://cpan.makeperl.org/authors/id/B/BR/$(DEVELOPER)/$(PROJECT)-$(CUR_VER).tar.gz"
+	mv "$(PROJECT)-$(CUR_VER).tar.gz" ../"$(PACKAGE)_$(CUR_VER).orig.tar.gz"

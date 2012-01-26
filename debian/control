@@ -1,0 +1,20 @@
+Source: libterm-shellui-perl
+Section: perl
+Priority: optional
+Maintainer: Boris Pek <tehnick-8@mail.ru>
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl
+Homepage: http://search.cpan.org/dist/Term-ShellUI/
+Vcs-Git: git://github.com/tehnick/libterm-shellui-perl-debian.git
+Vcs-Browser: https://github.com/tehnick/libterm-shellui-perl-debian
+Standards-Version: 3.9.2
+
+Package: libterm-shellui-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Fully-featured shell-like command line environment
+ Term::ShellUI uses the history and autocompletion features of Term::ReadLine
+ to present a sophisticated command-line interface to the user. It tries to
+ make every feature that one would expect to see in a fully interactive shell
+ trivial to implement. You simply declare your command set and let ShellUI
+ take care of the heavy lifting.

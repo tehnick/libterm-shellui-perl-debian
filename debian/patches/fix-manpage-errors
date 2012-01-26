@@ -1,0 +1,17 @@
+Description: Fix for manpage errors
+ This patch fixes errors in the POD syntax found by pod2man during the
+ generation of the man page.
+Author: Boris Pek <tehnick-8@yandex.ru>
+Last-Update: 2012-01-26
+
+--- a/lib/Text/Shellwords/Cursor.pm
++++ b/lib/Text/Shellwords/Cursor.pm
+@@ -521,6 +521,8 @@
+ 
+ =back
+ 
++=back
++
+ =head1 BUGS
+ 
+ None known.

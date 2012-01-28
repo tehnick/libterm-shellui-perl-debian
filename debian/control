@@ -12,7 +12,7 @@ Standards-Version: 3.9.2
 Package: libterm-shellui-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}
-Description: Fully-featured shell-like command line environment
+Description: Perl module for fully-featured shell-like command line environment
  Term::ShellUI uses the history and autocompletion features of Term::ReadLine
  to present a sophisticated command-line interface to the user. It tries to
  make every feature that one would expect to see in a fully interactive shell

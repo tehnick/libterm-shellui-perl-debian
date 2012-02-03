@@ -1,5 +1,5 @@
-libterm-shellui-perl (0.91-1) unstable; urgency=low
+libterm-shellui-perl (0.92-1) unstable; urgency=low
 
   * Initial release (closes: #657471).
 
- -- Boris Pek <tehnick-8@mail.ru>  Thu, 26 Jan 2012 22:05:30 +0200
+ -- Boris Pek <tehnick-8@mail.ru>  Fri, 03 Feb 2012 21:17:02 +0200

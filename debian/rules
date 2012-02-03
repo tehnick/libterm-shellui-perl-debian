@@ -10,5 +10,5 @@ CUR_VER = $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream
 	dh $@
 
 get-orig-source:
-	wget -4 -c "http://cpan.makeperl.org/authors/id/B/BR/$(DEVELOPER)/$(PROJECT)-$(CUR_VER).tar.gz"
+	wget -4 -c "http://search.cpan.org/CPAN/authors/id/B/BR/$(DEVELOPER)/$(PROJECT)-$(CUR_VER).tar.gz"
 	mv "$(PROJECT)-$(CUR_VER).tar.gz" ../"$(PACKAGE)_$(CUR_VER).orig.tar.gz"

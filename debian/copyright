@@ -1,4 +1,4 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5/index.html?revision=248
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=248
 Debianized-By: Boris Pek <tehnick-8@mail.ru>
 Debianized-Date: Thu, 26 Jan 2012 22:05:30 +0200
 Upstream-Name: Term::ShellUI

@@ -1,2 +1,2 @@
 version=3
-http://search.cpan.org/dist/Term-ShellUI/ .*/Term-ShellUI-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
+http://search.cpan.org/dist/Term-ShellUI/ .*/Term-ShellUI-v?(\d[\d.-]+)\.tar\.gz$

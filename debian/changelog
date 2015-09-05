@@ -1,3 +1,15 @@
+libterm-shellui-perl (0.92-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 3.9.6 (was 3.9.3): no changes required.
+  * Bump debhelper version to 9 (was 7); update debian/compat.
+  * Update get-orig-source section in debian/rules.
+  * Update debian/copyright.
+  * Simplify debian/watch.
+  * Add debian/patches/fix-pod2man-errors.patch:
+    fixes lintian warning manpage-has-errors-from-pod2man.
+
+ -- Boris Pek <tehnick@debian.org>  Sat, 05 Sep 2015 20:15:44 +0300
+
 libterm-shellui-perl (0.92-1) unstable; urgency=low
 
   * Initial release (closes: #657471).

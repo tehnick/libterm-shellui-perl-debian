@@ -12,8 +12,8 @@ Copyright: 2003-2012 Scott Bronson <bronson@rinspin.com>
 License: Expat
 
 Files: debian/*
-Copyright: 2012 Boris Pek <tehnick-8@mail.ru>
-License: Expat or GPL-2+
+Copyright: 2012-2015 Boris Pek <tehnick-8@mail.ru>
+License: Expat
 
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,7 +33,3 @@ License: Expat
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  IN THE SOFTWARE.
-
-License: GPL-2+
- On Debian systems, the complete text of the GNU General
- Public License can be found in `/usr/share/common-licenses/GPL-2'.

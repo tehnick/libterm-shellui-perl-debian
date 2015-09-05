@@ -1,7 +1,7 @@
 Source: libterm-shellui-perl
 Section: perl
 Priority: optional
-Maintainer: Boris Pek <tehnick-8@mail.ru>
+Maintainer: Boris Pek <tehnick@debian.org>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: perl
 Homepage: http://search.cpan.org/dist/Term-ShellUI/

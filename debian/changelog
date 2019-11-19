@@ -1,6 +1,7 @@
 libterm-shellui-perl (0.92-3) UNRELEASED; urgency=medium
 
   * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
 
  -- Debian Janitor <janitor@jelmer.uk>  Tue, 19 Nov 2019 23:40:05 +0000
 

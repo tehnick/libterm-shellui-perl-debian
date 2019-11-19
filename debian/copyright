@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Debianized-By: Boris Pek <tehnick-8@mail.ru>
 Debianized-Date: Thu, 26 Jan 2012 22:05:30 +0200
 Upstream-Name: Term::ShellUI

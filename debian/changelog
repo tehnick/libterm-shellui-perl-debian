@@ -1,5 +1,6 @@
-libterm-shellui-perl (0.92-3) UNRELEASED; urgency=medium
+libterm-shellui-perl (0.92-3) unstable; urgency=medium
 
+  [ Debian Janitor ]
   * Use secure copyright file specification URI.
   * Use secure URI in debian/watch.
   * Use secure URI in Homepage field.
@@ -8,7 +9,20 @@ libterm-shellui-perl (0.92-3) UNRELEASED; urgency=medium
   * Use secure URI in Vcs control header.
   * Drop unnecessary dh arguments: --parallel
 
- -- Debian Janitor <janitor@jelmer.uk>  Tue, 19 Nov 2019 23:40:05 +0000
+  [ Boris Pek ]
+  * Update debian/control:
+    - bump Standards-Version to 4.5.1 (was 3.9.6)
+    - bump debhelper-compat version to 13 (was 12)
+    - add Rules-Requires-Root: no
+    - update Homepage URL
+  * Update years and URLs in debian/copyright.
+  * Update debian/watch.
+  * Update patch 01_fix-pod2man-errors.
+  * Add patch 02_fix-spelling-errors.
+  * Add debian/upstream/metadata.
+  * Remove get-orig-source target from debian/rules.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 07 Jan 2021 21:20:33 +0300
 
 libterm-shellui-perl (0.92-2.1) unstable; urgency=medium
 

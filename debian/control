@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Boris Pek <tehnick@debian.org>
 Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: perl
-Homepage: https://search.cpan.org/dist/Term-ShellUI/
+Homepage: https://metacpan.org/pod/Term::ShellUI
 Vcs-Git: https://github.com/tehnick/libterm-shellui-perl-debian.git
 Vcs-Browser: https://github.com/tehnick/libterm-shellui-perl-debian
 Standards-Version: 4.5.1

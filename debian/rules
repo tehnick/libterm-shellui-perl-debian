@@ -1,14 +1,4 @@
 #!/usr/bin/make -f
 
-PACKAGE = libterm-shellui-perl
-
-DEBIAN_PATH := $(abspath $(dir $(MAKEFILE_LIST)))
-USCAN_REPORT = $(shell uscan --noconf --report --dehs $(DEBIAN_PATH))
-CUR_VER = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
-CUR_URL = $(shell echo "$(USCAN_REPORT)" | sed -n 's/.*<upstream-url>\(.*\)<\/upstream-url>.*/\1/p')
-
 %:
 	dh $@
-
-get-orig-source:
-	wget -c "$(CUR_URL)" -O "$(PACKAGE)_$(CUR_VER).orig.tar.gz"

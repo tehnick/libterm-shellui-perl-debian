@@ -1,6 +1,7 @@
 Description: Fix POD errors and typos
-Author: Boris Pek <tehnick-8@mail.ru>
-Last-Update: 2015-09-05
+Author: Boris Pek <tehnick-8@yandex.ru>
+Last-Update: 2021-01-07
+Forwarded: https://github.com/bronson/Term-ShellUI/commit/c8763637
 
 diff --git a/lib/Term/ShellUI.pm b/lib/Term/ShellUI.pm
 --- a/lib/Term/ShellUI.pm

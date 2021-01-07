@@ -1,1 +1,2 @@
-fix-pod2man-errors.patch
+01_fix-pod2man-errors.patch
+02_fix-spelling-errors.patch

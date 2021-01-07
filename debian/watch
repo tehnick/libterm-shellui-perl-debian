@@ -1,2 +1,2 @@
-version=3
-https://search.cpan.org/dist/Term-ShellUI/ .*/Term-ShellUI-v?(\d[\d.-]+)\.tar\.gz$
+version=4
+https://metacpan.org/release/Term-ShellUI/ .*/Term-ShellUI-v?(\d[\d.-]+)\.tar\.gz$

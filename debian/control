@@ -8,6 +8,7 @@ Homepage: https://metacpan.org/pod/Term::ShellUI
 Vcs-Git: https://github.com/tehnick/libterm-shellui-perl-debian.git
 Vcs-Browser: https://github.com/tehnick/libterm-shellui-perl-debian
 Standards-Version: 4.5.1
+Rules-Requires-Root: no
 
 Package: libterm-shellui-perl
 Architecture: all

@@ -1,3 +1,15 @@
+libterm-shellui-perl (0.92-3) UNRELEASED; urgency=medium
+
+  * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Use secure URI in Vcs control header.
+  * Drop unnecessary dh arguments: --parallel
+
+ -- Debian Janitor <janitor@jelmer.uk>  Tue, 19 Nov 2019 23:40:05 +0000
+
 libterm-shellui-perl (0.92-2.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.

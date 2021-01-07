@@ -2,10 +2,10 @@ Source: libterm-shellui-perl
 Section: perl
 Priority: optional
 Maintainer: Boris Pek <tehnick@debian.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 12)
 Build-Depends-Indep: perl
-Homepage: http://search.cpan.org/dist/Term-ShellUI/
-Vcs-Git: git://github.com/tehnick/libterm-shellui-perl-debian.git
+Homepage: https://search.cpan.org/dist/Term-ShellUI/
+Vcs-Git: https://github.com/tehnick/libterm-shellui-perl-debian.git
 Vcs-Browser: https://github.com/tehnick/libterm-shellui-perl-debian
 Standards-Version: 3.9.6
 
